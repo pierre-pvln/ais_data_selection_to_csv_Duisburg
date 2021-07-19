@@ -2,34 +2,34 @@
   "settings": {
     "version": "v0.05",
     "date": "2021-04-28",
-    "comment": "Ipheion variant; Source should be in projectsettings.json"
+    "comment": "Trappswise variant; Source should be in projectsettings.json"
   },
   "project": {
-    "name": "NL-Berg-WerkdokAannemer",
-    "folderprefix": "berg",
-    "polygonset": "NL-Berg-WerkdokAannemer.json"
+    "name": "DE-Duisburg",
+    "folderprefix": "Duisburg",
+    "polygonset": "DE-Duisburg-alle-havens.json"
   },
   "filenames": {
     "ref_in_fname": "2021-06-IPH"
   },
   "s3": {
-    "inputbucket"  : "ais-datasets-json",
+	"inputbucket"  : "aishub-data-storage",
     "inputregion"  : "eu-central-1",
-    "outputbucket" : "ais-datasets-csv",
+    "outputbucket" : "aishub-data-storage-csv",
     "outputregion" : "eu-central-1",
-    "polygonbucket": "ais-datasets-polygons",
+    "polygonbucket": "aishub-data-storage-polygons",
     "polygonregion": "eu-central-1",
-	"date_type" : "leading0"
+	"date_type" : "no0"
   },
   "period": {
     "fromdate": "2021-06-01",
-    "todate"  : "2021-06-15"
+    "todate"  : "2021-06-30"
   },
   "boundingbox": {
-    "lat_min" : "50.9588",
-    "lat_max" : "51.0041",
-    "lon_min" : "5.7481",
-    "lon_max" : "5.7764"
+    "lat_min" : "51.40647434524813",
+    "lat_max" : "51.46138721075001",
+    "lon_min" : "6.7102861404418945",
+    "lon_max" : "6.77706241607666"
   },
   "folders": {
     "ref_dir" : "../input/",
@@ -39,7 +39,7 @@
   },
   "output": {
     "yearfolder" : "2021",
-    "municipality" : "Stein",
+    "municipality" : "Duisburg",
     "output_to_excel" : "True",
     "max_excel_lines" : 1048576
   },

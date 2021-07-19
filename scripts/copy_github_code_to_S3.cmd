@@ -62,7 +62,7 @@ IF NOT EXIST "..\S3_files\" (MKDIR "..\S3_files\")
 CD "..\S3_files\"
 
 ECHO [INFO ] Retrieving files from github ...
-git clone git@github.com:pierre-pvln/json-to-csv_vandenHerik.git json-to-csv
+git clone git@github.com:pierre-pvln/ais_data_selection_to_csv_Duisburg.git json-to-csv
 
 ECHO [INFO ] Copy files to S3 bucket ...
 :: copy files to s3 bucket
